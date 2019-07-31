@@ -1,7 +1,7 @@
 import * as coreHttp from 'http'
 import * as coreHttps from 'https'
 
-interface Scheme<Options, Callback, Request>  {
+interface Scheme<Options, Callback, Request> {
   request(options: Options, callback: Callback): Request
 }
 
